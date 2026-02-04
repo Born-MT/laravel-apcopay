@@ -1,0 +1,41 @@
+{
+  "name": "born-mt/laravel-apcopay",
+  "description": "Laravel integration for ApcoPay payment gateway (hosted page and payment status)",
+  "keywords": [
+    "laravel",
+    "apcopay",
+    "payment",
+    "gateway"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "guzzlehttp/guzzle": "^7.0",
+    "illuminate/support": "^10.0|^11.0|^12.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0|^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "BornMT\\ApcoPay\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "BornMT\\ApcoPay\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "BornMT\\ApcoPay\\ApcoPayServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
