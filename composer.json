@@ -1,5 +1,5 @@
 {
-  "name": "born-mt/laravel-apcopay",
+  "name": "bornmt/laravel-apcopay",
   "description": "Laravel integration for ApcoPay payment gateway (hosted page and payment status)",
   "keywords": [
     "laravel",

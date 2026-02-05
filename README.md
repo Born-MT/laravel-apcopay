@@ -11,7 +11,7 @@ Laravel integration for the ApcoPay payment gateway: hosted payment page and pay
 ## Installation
 
 ```bash
-composer require born-mt/laravel-apcopay
+composer require bornmt/laravel-apcopay
 ```
 
 Publish the config file (optional; defaults are used from the package):
